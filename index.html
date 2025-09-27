@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+  <title>four-net.live</title>
+  <meta name="description" content="four-net.live site for fun.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1720; --card:#0b1220; --muted:#9aa4b2; --accent:#6ee7b7; --glass: rgba(255,255,255,0.04);
+      --radius:12px; --maxw:1020px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; background:linear-gradient(180deg,#071022 0%, #071427 100%); color:#e6eef6; -webkit-font-smoothing:antialiased;
+      display:flex; align-items:flex-start; justify-content:center; padding:28px 14px;
+    }
+    .container{width:100%; max-width:var(--maxw)}
+    header{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:20px}
+    .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:inherit}
+    .logo{width:42px;height:42px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#34d399);display:flex;align-items:center;justify-content:center;font-weight:800;color:#022; font-size:16px}
+    nav a{color:var(--muted); text-decoration:none; margin-left:14px; font-weight:600; font-size:14px}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:var(--radius); padding:20px; box-shadow: 0 4px 18px rgba(2,6,23,0.5); backdrop-filter: blur(6px); border:1px solid rgba(255,255,255,0.03)}
+
+    .hero{display:grid; grid-template-columns:110px 1fr; gap:16px; align-items:center}
+    .avatar{width:110px;height:110px;border-radius:14px;background:linear-gradient(180deg,#071427,#0b1530);display:flex;align-items:center;justify-content:center;font-size:26px;color:var(--accent); font-weight:800; border:1px solid rgba(255,255,255,0.03)}
+    h1{margin:0;font-size:22px}
+    .meta{color:var(--muted); margin-top:4px; font-size:14px}
+    .about{margin-top:14px; line-height:1.6; color:#d8e6f2; font-size:15px}
+
+    .grid2{display:grid; grid-template-columns:1fr 260px; gap:16px; margin-top:18px}
+    .panel{padding:14px; border-radius:10px; background:var(--card); border:1px solid rgba(255,255,255,0.02); font-size:14px}
+
+    .list{display:flex;flex-direction:column; gap:8px}
+    .chip{display:inline-block;padding:6px 8px;border-radius:999px;background:var(--glass); color:var(--muted); font-weight:600; font-size:13px}
+
+    footer{margin-top:18px; color:var(--muted); font-size:12px}
+
+    a.button{display:inline-block;padding:8px 12px;border-radius:8px;background:linear-gradient(90deg,#164e3a,#1fbf86); color:#012; font-weight:700; text-decoration:none; font-size:14px}
+
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr; text-align:center}
+      .grid2{grid-template-columns:1fr}
+      .avatar{margin:0 auto}
+      nav{display:none}
+    }
+    @media (max-width:480px){
+      body{padding:16px 10px}
+      h1{font-size:20px}
+      .meta,.about{font-size:14px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="https://four-net.live" target="_blank">
+        <div class="logo">4N</div>
+        <div>
+          <div style="font-weight:800;font-size:14px">four-net.live</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:2px">Explore · Connect · Create</div>
+        </div>
+      </a>
+      <nav>
+        <a href="https://four-net.live">Home</a>
+       <!-- <a href="/posts">Posts</a>
+        <a href="/contact">Contact</a> -->
+      </nav>
+    </header>
+
+    <main class="card">
+      <section class="hero">
+        <div class="avatar" aria-hidden="true">4N</div>
+        <div>
+          <h1>About four-net.live</h1>
+          <div class="meta">Tiny part of the web.</div>
+
+          <p class="about">I'm known for a couple of things but mainly for macros</p>
+
+          <div style="margin-top:10px">
+            <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Literal Rickroll</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="grid2">
+        <div>
+          <div class="panel">
+            <h3 style="margin-top:0;font-size:16px">About Me</h3>
+            <p style="color:var(--muted);line-height:1.5">I have the EST timezone, and barely get any sleep, if I'm online I'm probably macroing on hypixel skyblock while sleeping.</p>
+
+            <h4 style="margin-top:10px;font-size:15px">Projects</h4>
+            <div class="list">
+              <div>• Lightweight python editor</div>
+              <div>• Python Macros</div>
+              <div>• Game sites</div>
+            </div>
+
+            <h4 style="margin-top:10px;font-size:15px">Quick facts</h4>
+            <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
+              <span class="chip">Nice at times</span>
+              <span class="chip">Garbage Internet</span>
+              <span class="chip">Photographer</span>
+            </div>
+          </div>
+
+          <div class="panel" style="margin-top:10px">
+            <h3 style="margin-top:0;font-size:16px">Who runs it</h3>
+            <p style="color:var(--muted);line-height:1.5">Me, fournet runs this site.</p>
+
+            <h4 style="margin-top:10px;font-size:15px">Get involved</h4>
+            <p style="color:var(--muted);margin-bottom:6px">no.</p>
+        <!--    <a href="/contact" style="text-decoration:none;color:var(--accent);font-weight:700;font-size:14px">Contact & Contribute →</a> -->
+          </div>
+        </div>
+
+        <aside>
+          <div class="panel">
+            <h4 style="margin-top:0;font-size:15px">Contact</h4>
+            <p style="color:var(--muted);margin-bottom:6px;font-size:14px">four.net on discord</p>
+           <!-- <h4 style="margin-top:10px;font-size:15px">Social</h4>
+            <p style="color:var(--muted);margin:0 0 6px 0;font-size:14px">Twitter / Mastodon / GitHub — links available on the footer.</p> -->
+
+           <!-- <h4 style="margin-top:10px;font-size:15px">Subscribe</h4>
+            <form action="#" onsubmit="event.preventDefault();alert('Thanks — add your backend to collect emails!')">
+              <input type="email" placeholder="you@domain.com" style="width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:inherit;margin-bottom:6px;font-size:14px">
+              <button style="width:100%;padding:8px;border-radius:8px;background:linear-gradient(90deg,#164e3a,#1fbf86);border:none;font-weight:700;color:#012;font-size:14px">Subscribe</button>
+            </form>
+          </div> -->
+
+          <div class="panel" style="margin-top:10px">
+            <h4 style="margin-top:0;font-size:15px">Site essentials</h4>
+            <ul style="color:var(--muted);padding-left:16px;margin:6px 0 0 0;font-size:14px">
+              <li>My Contact Info Above.</li>
+              <li>Projects.</li>
+              <li>Lightweight Applications.</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <footer>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap">
+          <div style="color:var(--muted)">© four-net.live — Built for people to know who I am.</div>
+          <div style="color:var(--muted);font-size:12px">Hosted independently</div>
+        </div>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
