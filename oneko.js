@@ -9,8 +9,8 @@
 
   const nekoEl = document.createElement("div");
 
-  let nekoPosX = 360;
-  let nekoPosY = 360;
+  let nekoPosX = 32;
+  let nekoPosY = 32;
 
   let mousePosX = 0;
   let mousePosY = 0;
