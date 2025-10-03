@@ -1,10 +1,10 @@
-Artist: Goreshit | Rating: ++
+Artist: Goreshit | Rating: ++ | Artist Link: 
 Seriously?
 Winkles Twinkle
 Black Is the New Black
 Toromi Hearts 2
 ----------------------------------
-Artist: proloxx | Rating: ++
+Artist: proloxx | Rating: ++ | Artist Link: 
 rude buster breakcore - remix
 hotline.
 alpine racer
@@ -12,13 +12,13 @@ metadata
 untitledd
 ps vita breakcore
 ----------------------------------
-Artist: Maretu | Rating: +++
+Artist: Maretu | Rating: +++ | Artist Link: https://open.spotify.com/artist/7p1fL0cAuCPDMG6oBswFhM
 Magical Doctor
 DARLING
 SIU
 Coin locker Baby
 ----------------------------------
-Artist: otuka | Rating: +++
+Artist: otuka | Rating: +++ | Artist Link: https://open.spotify.com/artist/2VxINnkFPw2Sd6MiyKxN4B
 let me go
 skin
 never enough
